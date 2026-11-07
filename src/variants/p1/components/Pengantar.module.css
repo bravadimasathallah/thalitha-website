@@ -1,0 +1,163 @@
+.pengantar,
+.pilihanPenuhRasa {
+  align-items: center;
+  box-sizing: border-box;
+}
+.pengantar {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-28) var(--padding-30) var(--padding-32);
+  max-width: 100%;
+  z-index: 2;
+}
+.pilihanPenuhRasa {
+  width: 100%;
+  border-radius: var(--br-24);
+  background-color: var(--color-honeydew);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-16);
+  gap: var(--gap-20);
+  max-width: var(--max-w-1378);
+}
+.ajakanMemilih,
+.pilihanPenuhRasa,
+.tagline {
+  overflow: hidden;
+  display: flex;
+}
+.ajakanMemilih {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20) var(--padding-0) var(--padding-24);
+  box-sizing: border-box;
+  gap: var(--gap-15);
+  min-width: var(--min-w-310);
+  max-width: 568px;
+  text-align: left;
+  font-size: var(--fs-12);
+  color: var(--color-seagreen);
+  font-family: var(--font-inter);
+}
+.tagline {
+  width: 137px;
+  height: var(--height-15);
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--gap-7);
+}
+.aksen {
+  height: var(--height-3);
+  width: var(--width-22);
+  background-color: var(--color-seagreen);
+}
+.aksen,
+.selaluDicinta {
+  position: relative;
+}
+.judulMenu,
+.pengantarSingkat {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+.judulMenu {
+  margin: 0;
+  font-size: 43px;
+  line-height: 113%;
+  font-weight: 800;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-200);
+  max-width: 509px;
+}
+.pengantarSingkat {
+  font-size: var(--fs-14);
+  line-height: 165%;
+  color: var(--color-darkslategray-400);
+  max-width: 520px;
+}
+.sajianPilihan {
+  height: 300px;
+  width: 713px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/assets/p1/Sajian-pilihan@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: var(--min-w-310);
+  max-width: 713px;
+  text-align: left;
+  font-size: var(--fs-12);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-inter);
+}
+.pilihanRasa {
+  position: absolute;
+  right: 22px;
+  bottom: 22px;
+  border-radius: var(--br-100);
+  background-color: var(--color-gold-100);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-10) var(--padding-16);
+  gap: var(--gap-7);
+  white-space: nowrap;
+}
+.sparklesIcon {
+  height: var(--height-16);
+  width: var(--width-16);
+  position: relative;
+}
+@media screen and (max-width: 1350px) {
+  .pilihanPenuhRasa {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ajakanMemilih {
+    max-width: 100%;
+    flex: 1;
+  }
+  .judulMenu {
+    font-size: 34px;
+    line-height: 39px;
+  }
+  .judulMenu,
+  .pengantarSingkat,
+  .sajianPilihan {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pengantar {
+    padding-top: var(--padding-20);
+    padding-bottom: 21px;
+    box-sizing: border-box;
+  }
+  .judulMenu {
+    font-size: var(--fs-26);
+    line-height: 29px;
+  }
+}
+
+/* Responsive layout: retain the desktop styling and keep content visible. */
+
+@media (max-width: 800px) {
+  .pilihanPenuhRasa, .pilihanPenuhRasa:hover { padding: 0; flex-direction: column; align-items: stretch; }
+  .ajakanMemilih, .ajakanMemilih:hover { min-width: 0; flex: none; padding: 24px; }
+  .sajianPilihan, .sajianPilihan:hover { min-width: 0; width: 100%; flex: none; }
+}
+@media (max-width: 450px) {
+  .pengantar, .pengantar:hover { padding-inline: 16px; }
+  .pilihanRasa, .pilihanRasa:hover { right: 12px; max-width: calc(100% - 24px); box-sizing: border-box; font-size: 11px; }
+}

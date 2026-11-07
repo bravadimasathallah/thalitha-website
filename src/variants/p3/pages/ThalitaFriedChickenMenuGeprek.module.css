@@ -1,0 +1,237 @@
+.thalitaFriedChickenMenuG,
+.thalitaFriedChickenMenuG:hover {
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
+}
+.thalitaFriedChickenMenuG {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+  gap: var(--gap-0) var(--gap-10);
+}
+.thalitaFriedChickenMenuG:hover {
+  justify-content: flex-start;
+}
+.pembukaMenu {
+  text-align: left;
+  font-size: var(--fs-14);
+  font-family: var(--font-inter);
+}
+.pembukaMenu,
+.pembukaMenu:hover,
+.thalitaFriedChickenMenuG:hover {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0) var(--gap-10);
+  align-items: flex-start;
+}
+.pembukaMenu,
+.pembukaMenu:hover {
+  align-self: stretch;
+  width: 100%;
+  max-width: 100%;
+}
+.pembukaMenu {
+  position: relative;
+  isolation: isolate;
+  color: var(--color-darkslategray-300);
+}
+.pembukaMenu:hover {
+  justify-content: flex-start;
+}
+.penutupMenu {
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 44px var(--padding-0) var(--padding-0);
+  gap: var(--gap-0) var(--gap-10);
+}
+.footer,
+.footer:hover,
+.penutupMenu,
+.penutupMenu:hover {
+  display: flex;
+  align-self: stretch;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.penutupMenu:hover {
+  flex-direction: column;
+  gap: var(--gap-0) var(--gap-10);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 44px var(--padding-0) var(--padding-0);
+}
+.footer,
+.footer:hover {
+  background-color: var(--color-white);
+  gap: var(--gap-0);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-32) var(--padding-80);
+  row-gap: var(--gap-20);
+}
+.footer {
+  border-top: var(--border-1);
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--fs-26);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+.footer:hover {
+  flex-direction: row;
+}
+.identitasThalita,
+.identitasThalita:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: var(--height-44);
+  gap: var(--gap-10);
+  align-items: center;
+}
+.identitasThalita {
+  overflow: hidden;
+}
+.identitasThalita:hover {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.emblemIcon {
+  position: relative;
+}
+.emblemIcon,
+.emblemIcon:hover {
+  background-color: var(--color-gold);
+  display: block;
+  width: var(--width-44);
+  height: var(--height-44);
+  border-radius: var(--br-100);
+}
+.drumstickIcon {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+}
+.drumstickIcon,
+.drumstickIcon:hover {
+  display: block;
+  width: var(--width-26);
+  height: var(--height-26);
+  gap: var(--gap-0);
+}
+.namaBrand,
+.namaBrand:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: var(--height-40);
+  flex-direction: column;
+  gap: var(--gap-0) var(--gap-10);
+  align-items: flex-start;
+}
+.namaBrand {
+  overflow: hidden;
+}
+.namaBrand:hover {
+  justify-content: flex-start;
+}
+.thalita,
+.thalita:hover {
+  font-weight: 800;
+  line-height: 110%;
+  display: block;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.thalita {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+}
+.thalita:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--fs-26);
+  text-align: left;
+  color: var(--color-darkslategray-100);
+}
+.friedChicken,
+.tagline {
+  position: relative;
+  color: var(--color-seagreen);
+}
+.friedChicken,
+.friedChicken:hover {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: var(--fs-9);
+}
+.friedChicken {
+  display: block;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.friedChicken:hover {
+  text-align: left;
+  color: var(--color-seagreen);
+}
+.tagline {
+  margin: 0;
+  font-size: var(--fs-17);
+  font-style: italic;
+  font-weight: 400;
+  font-family: inherit;
+}
+.friedChicken:hover,
+.hakCipta,
+.hakCipta:hover,
+.tagline,
+.tagline:hover {
+  display: block;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.tagline:hover {
+  font-style: italic;
+  font-family: var(--font-poppins);
+  font-size: var(--fs-17);
+  text-align: left;
+  color: var(--color-seagreen);
+}
+.hakCipta,
+.hakCipta:hover {
+  font-family: var(--font-inter);
+  font-size: var(--fs-11);
+  color: var(--color-gray-100);
+}
+.hakCipta {
+  position: relative;
+}
+.hakCipta:hover {
+  text-align: left;
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-wrap: wrap;
+    padding-left: var(--padding-40);
+    padding-right: var(--padding-40);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .thalita {
+    font-size: 21px;
+    line-height: 23px;
+  }
+}

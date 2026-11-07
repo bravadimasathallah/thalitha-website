@@ -1,0 +1,129 @@
+:root {
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-quick: 180ms;
+  --motion-page: 320ms;
+}
+
+/* Keep the live page opaque before, during and after native snapshots.
+   Toggling animation with :active-view-transition restarts it on completion. */
+.page-transition {
+  opacity: 1;
+}
+
+.page-transition:where([data-native-transitions="false"]) {
+  animation: page-fallback var(--motion-page) var(--motion-ease) both;
+}
+
+@keyframes page-fallback {
+  from { opacity: 0.92; }
+  to { opacity: 1; }
+}
+
+@keyframes page-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+::view-transition {
+  pointer-events: none;
+}
+
+::view-transition-group(*) {
+  animation-duration: var(--motion-page);
+  animation-timing-function: var(--motion-ease);
+}
+
+/* An opaque outgoing snapshot prevents a white gap between the two pages. */
+::view-transition-old(root),
+::view-transition-old(site-header) {
+  animation: none;
+  opacity: 1;
+  mix-blend-mode: normal;
+}
+
+::view-transition-new(root) {
+  animation: page-enter var(--motion-page) var(--motion-ease) both;
+}
+
+::view-transition-new(*) {
+  mix-blend-mode: normal;
+}
+
+/* Navigation colors crossfade without a second fade on the live document. */
+::view-transition-new(site-header) {
+  animation: page-enter var(--motion-quick) ease-out both;
+}
+
+/* One interaction language for navigation, CTAs, footer links and menu buttons.
+   Individual transform properties do not overwrite exported component transforms. */
+.page-transition :is(a[href], button, [role="button"], [role="tab"]) {
+  touch-action: manipulation;
+  transform-origin: center;
+  transition:
+    translate var(--motion-quick) var(--motion-ease),
+    scale 240ms var(--motion-ease),
+    background-color var(--motion-quick) ease,
+    color var(--motion-quick) ease,
+    border-color var(--motion-quick) ease,
+    box-shadow var(--motion-quick) ease,
+    opacity var(--motion-quick) ease;
+}
+
+/* Touch devices get press feedback without a hover position that can get stuck. */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .page-transition :is(a[href], button, [role="button"], [role="tab"]):not(:disabled):not([aria-disabled="true"]):hover {
+    translate: 0 -2px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .page-transition :is(a[href], button, [role="button"], [role="tab"]):not(:disabled):not([aria-disabled="true"])[data-pressed="true"] {
+    translate: 0 1px;
+    scale: 0.96;
+    transition-duration: 80ms;
+  }
+}
+
+.page-transition :is(a[href], button, [role="button"], [role="tab"]):focus-visible {
+  outline: 2px solid var(--color-seagreen);
+  outline-offset: 4px;
+}
+
+/* Move the small arrow/plus with its button, keeping all hit areas unchanged. */
+.page-transition :is(a[href], button) > img {
+  transition: translate var(--motion-quick) var(--motion-ease);
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .page-transition :is(a[href], button):not(:disabled):not([aria-disabled="true"]):hover > img[src*="arrow"] {
+    translate: 2px -2px;
+  }
+}
+
+@media (max-width: 600px) {
+  :root { --motion-page: 260ms; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-transition { animation: none; }
+
+  .page-transition :is(a[href], button, [role="button"], [role="tab"]),
+  .page-transition :is(a[href], button) > img {
+    transition: none;
+    translate: none;
+    scale: none;
+  }
+
+  .page-transition :is(a[href], button, [role="button"], [role="tab"]):hover,
+  .page-transition :is(a[href], button, [role="button"], [role="tab"]):active,
+  .page-transition :is(a[href], button):hover > img[src*="arrow"] {
+    translate: none;
+    scale: none;
+  }
+
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}

@@ -1,0 +1,92 @@
+.ajakan,
+.ajakanPesan {
+  overflow: hidden;
+  display: flex;
+}
+.ajakanPesan {
+  align-self: stretch;
+  background-color: var(--color-white);
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 62.1px var(--padding-30) 62px;
+  box-sizing: border-box;
+  gap: 44.9px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-12);
+  color: var(--color-crimson);
+  font-family: var(--font-inter);
+}
+.ajakan {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+  min-width: var(--min-w-310);
+  max-width: 797px;
+}
+.judul,
+.label {
+  position: relative;
+  font-weight: 800;
+}
+.judul {
+  margin: 0;
+  width: 100%;
+  font-size: 43px;
+  line-height: 110%;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-200);
+  display: inline-block;
+  max-width: 797px;
+}
+.deskripsi {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-15);
+  line-height: 160%;
+  color: var(--color-dimgray);
+}
+.pilihanPemesanan {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 1.9px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-20);
+  min-width: var(--min-w-310);
+  max-width: 536px;
+  font-size: var(--fs-19);
+  color: var(--color-gray-200);
+}
+@media screen and (max-width: 800px) {
+  .ajakanPesan {
+    gap: var(--gap-22);
+  }
+  .ajakan,
+  .judul {
+    max-width: 100%;
+  }
+  .judul {
+    font-size: 34px;
+    line-height: 38px;
+  }
+  .pilihanPemesanan {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .judul {
+    font-size: var(--fs-26);
+    line-height: var(--lh-28);
+  }
+}
+
+/* Responsive layout: retain the desktop styling and keep content visible. */
+
+.ajakan, .pilihanPemesanan { min-width: min(310px, 100%); }
+

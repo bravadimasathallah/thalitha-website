@@ -1,0 +1,48 @@
+.tentangMerek {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-22);
+  min-width: var(--min-w-135);
+  max-width: var(--max-w-338);
+  text-align: left;
+  font-size: var(--fs-13);
+  color: var(--color-lightgray);
+  font-family: var(--font-inter);
+}
+.logoThalita1RemovebgPrevIcon {
+  width: var(--width-74);
+  position: relative;
+  box-shadow: var(--shadow-drop);
+  max-height: 100%;
+  object-fit: cover;
+}
+.deskripsi {
+  align-self: stretch;
+  position: relative;
+  line-height: 180%;
+}
+.mediaSosial {
+  width: 128px;
+  height: var(--height-36);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-10);
+}
+.tautanMediaSosial {
+  height: var(--height-36);
+  width: var(--width-36);
+  position: relative;
+  border-radius: var(--br-10);
+}
+.instagramIcon {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: var(--width-18);
+  height: var(--height-18);
+}

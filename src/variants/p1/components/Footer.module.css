@@ -1,0 +1,225 @@
+.footer {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-500);
+  flex-direction: column;
+  padding: 56px var(--padding-80) var(--padding-28);
+  box-sizing: border-box;
+  gap: 38px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-13);
+  color: var(--color-lightgray);
+  font-family: var(--font-inter);
+}
+
+.footer,
+.informasiFooter,
+.tentangMerek {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+}
+.informasiFooter {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 65px;
+  max-width: 100%;
+}
+.tentangMerek {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-22);
+  min-width: 135px;
+  max-width: 338px;
+}
+.logoThalita1RemovebgPrevIcon {
+  width: var(--width-74);
+  position: relative;
+  box-shadow: var(--shadow-drop);
+  max-height: 100%;
+  object-fit: cover;
+}
+.deskripsi {
+  width: 100%;
+  position: relative;
+  line-height: 180%;
+  display: inline-block;
+  max-width: 338px;
+}
+.mediaSosial {
+  width: 128px;
+  height: var(--height-36);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-10);
+}
+.tautanMediaSosial {
+  height: var(--height-36);
+  width: var(--width-36);
+  position: relative;
+  border-radius: var(--br-10);
+}
+.instagramIcon {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: var(--width-18);
+  height: var(--height-18);
+}
+.tautanCepat {
+  width: 160px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-20);
+}
+.judul {
+  font-size: var(--fs-14);
+  color: var(--color-white);
+}
+.judul,
+.tautan {
+  position: relative;
+}
+.informasiBisnis {
+  width: 180px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-20);
+}
+.tautan7 {
+  position: relative;
+  display: inline-block;
+  min-width: 87px;
+}
+.kontak {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-18);
+  min-width: 335px;
+  max-width: 100%;
+  font-size: var(--fs-12);
+}
+.statusKontak {
+  position: relative;
+  font-size: var(--fs-10);
+  color: var(--color-gold-200);
+}
+.detailKontak {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-10);
+  max-width: 100%;
+}
+.mapPinIcon {
+  height: var(--height-16);
+  width: var(--width-16);
+  position: relative;
+}
+.kontak2 {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  min-width: 311px;
+  max-width: 479px;
+}
+.detailKontak2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-10);
+  max-width: 100%;
+}
+.kontak3 {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  max-width: calc(100% - 26px);
+}
+.pemisah {
+  align-self: stretch;
+  height: var(--height-1);
+  position: relative;
+  background-color: var(--color-gray-300);
+}
+.catatanFooter {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: var(--gap-20);
+  max-width: 100%;
+  font-size: var(--fs-11);
+}
+.hakCipta {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.tautanLegal {
+  height: 13px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 23px;
+}
+.privasi {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    padding-left: var(--padding-40);
+    padding-right: var(--padding-40);
+    box-sizing: border-box;
+  }
+  .informasiFooter {
+    gap: var(--gap-32);
+  }
+  .detailKontak {
+    flex-wrap: wrap;
+  }
+  .kontak2 {
+    max-width: 100%;
+  }
+  .catatanFooter {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer {
+    gap: var(--gap-19);
+    padding-top: var(--padding-36);
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .informasiFooter {
+    gap: var(--gap-16);
+  }
+}
+
+
+@media (max-width: 450px) {
+  .kontak, .kontak2, .kontak3 { min-width: 0; }
+  .kontak2, .kontak3 { overflow-wrap: anywhere; }
+  .footer { padding-inline: 20px; }
+}

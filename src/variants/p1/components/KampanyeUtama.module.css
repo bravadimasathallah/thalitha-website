@@ -1,0 +1,229 @@
+.kampanyeUtama {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-500);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 115.5px var(--padding-30);
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  max-width: 100%;
+  text-align: left;
+  font-size: 117px;
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}
+.labelKampanye,
+.pesanKampanye {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+}
+.pesanKampanye {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-24);
+  min-width: var(--min-w-310);
+  max-width: var(--max-w-1378);
+  z-index: 4;
+  text-align: left;
+  font-size: var(--fs-12);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.labelKampanye {
+  width: 105px;
+  height: 31px;
+  border-radius: var(--br-100);
+  background-color: var(--color-gray-500);
+  align-items: center;
+  padding: var(--padding-8) var(--padding-14);
+  box-sizing: border-box;
+}
+.headline,
+.label {
+  position: relative;
+}
+.headline {
+  margin: 0;
+  width: 600px;
+  font-size: 88px;
+  font-weight: 900;
+  font-family: var(--font-poppins);
+  display: inline-block;
+  max-width: 100%;
+}
+.headline,
+.nagih,
+.renyahnyaBikin {
+  line-height: 99%;
+}
+.nagih {
+  color: var(--color-gold-200);
+}
+.deskripsi {
+  width: 450px;
+  position: relative;
+  font-size: var(--fs-18);
+  line-height: 160%;
+  color: var(--color-mistyrose);
+  display: inline-block;
+  max-width: 100%;
+}
+.aksiKampanye,
+.tombol {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.aksiKampanye {
+  align-self: stretch;
+  gap: var(--gap-22);
+  font-size: var(--fs-13);
+}
+.tombol {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-0) var(--padding-24);
+  background-color: var(--color-gold-200);
+  height: var(--height-54);
+  border-radius: var(--br-12);
+  box-sizing: border-box;
+  gap: var(--gap-14);
+}
+.tombol:hover {
+  background-color: var(--color-goldenrod);
+}
+.label2 {
+  position: relative;
+  font-size: var(--fs-15);
+  font-family: var(--font-inter);
+  color: var(--color-firebrick);
+  text-align: left;
+}
+.arrowUpRightIcon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+}
+.pesanPendamping {
+  height: var(--height-18);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-7);
+}
+.heartIcon {
+  height: var(--height-18);
+  width: var(--width-18);
+  position: relative;
+}
+.pesan {
+  position: relative;
+  font-weight: 600;
+}
+.ayamCrispyUnggulan,
+.tipografiLatar {
+  margin: 0 !important;
+  position: absolute;
+  flex-shrink: 0;
+}
+.ayamCrispyUnggulan {
+  height: 550px;
+  width: 770px;
+  right: 94px;
+  bottom: -10px;
+  object-fit: cover;
+  z-index: 5;
+}
+.tipografiLatar {
+  top: 8px;
+  left: calc(50% - 39px);
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  z-index: 2;
+}
+.lingkaranLatar {
+  height: 660px;
+  width: 660px;
+  top: calc(50% - 336px);
+  right: 81px;
+  border-radius: 50%;
+  background-color: var(--color-firebrick);
+  z-index: 1;
+}
+.lingkaranLatar,
+.panggungAyam,
+.stikerRasaIcon {
+  position: absolute;
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+.panggungAyam {
+  height: 480px;
+  width: 480px;
+  top: calc(50% - 242px);
+  right: 199px;
+  border-radius: 50%;
+  background-color: var(--color-gold-200);
+  z-index: 2;
+}
+.stikerRasaIcon {
+  height: 154.2px;
+  width: 154.2px;
+  top: 70px;
+  right: 190.8px;
+  border-radius: 65px;
+  object-fit: contain;
+  z-index: 5;
+}
+@media screen and (max-width: 1350px) {
+  .pesanKampanye {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .kampanyeUtama {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    box-sizing: border-box;
+  }
+  .headline {
+    font-size: 44px;
+    line-height: 52px;
+  }
+  .tipografiLatar {
+    font-size: 58px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .headline {
+    font-size: var(--fs-26);
+    line-height: 35px;
+  }
+  .aksiKampanye {
+    flex-wrap: wrap;
+  }
+  .tipografiLatar {
+    font-size: 35px;
+  }
+}
+
+/* Responsive layout: retain the desktop styling and keep content visible. */
+
+.ayamCrispyUnggulan, .stikerRasaIcon, .tipografiLatar, .lingkaranLatar, .panggungAyam { pointer-events: none; }
+@media (max-width: 1250px) {
+  .kampanyeUtama { flex-direction: column; align-items: stretch; padding: 48px 24px 0; }
+  .pesanKampanye { flex: none; min-width: 0; }
+  .headline { font-size: clamp(36px, 6vw, 70px); line-height: 1.1; }
+  .aksiKampanye { flex-wrap: wrap; }
+  .ayamCrispyUnggulan { position: relative; align-self: center; width: min(770px, 100%); height: auto; right: auto; bottom: auto; }
+  .lingkaranLatar { width: min(660px, 90vw); height: auto; aspect-ratio: 1; top: auto; right: 5%; bottom: -70px; }
+  .panggungAyam { width: min(480px, 65vw); height: auto; aspect-ratio: 1; top: auto; right: 15%; bottom: -25px; }
+  .stikerRasaIcon { width: clamp(80px, 15vw, 154px); height: auto; top: auto; right: 8%; bottom: clamp(140px, 30vw, 380px); }
+  .tipografiLatar { top: auto; bottom: 20px; left: 24px; font-size: clamp(35px, 10vw, 100px); }
+}

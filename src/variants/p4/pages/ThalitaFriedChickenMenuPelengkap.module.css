@@ -1,0 +1,45 @@
+.thalitaFriedChickenMenuP {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--color-darkslategray-500);
+  font-family: var(--font-inter);
+}
+.pembukaMenu,
+.tautan,
+.thalitaFriedChickenMenuP {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.pembukaMenu {
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+}
+.tautan {
+  width: 37px;
+  height: var(--height-28);
+  margin: 0 !important;
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 121px);
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--gap-8);
+  z-index: 1;
+}
+.label,
+.penandaAktif {
+  position: relative;
+}
+.penandaAktif {
+  width: var(--width-20);
+  height: var(--height-3);
+  border-radius: var(--br-4);
+  background-color: var(--color-darkslategray-500);
+}

@@ -1,0 +1,19 @@
+.thalitaFriedChickenMenuP,
+.thalitaFriedChickenMenuP:hover {
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0) var(--gap-10);
+  align-items: flex-start;
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
+}
+.thalitaFriedChickenMenuP {
+  position: relative;
+  overflow: hidden;
+}
+.thalitaFriedChickenMenuP:hover {
+  justify-content: flex-start;
+}

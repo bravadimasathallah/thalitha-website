@@ -1,0 +1,129 @@
+.pembukaMenu {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-inter);
+}
+.label {
+  position: relative;
+}
+.pengantar {
+  align-items: center;
+  box-sizing: border-box;
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-28) var(--padding-30) var(--padding-32);
+  max-width: 100%;
+  z-index: 2;
+}
+.pilihanPenuhRasa {
+  width: 100%;
+  border-radius: var(--br-24);
+  background-color: var(--color-honeydew);
+  max-width: var(--max-w-1378);
+}
+.ajakanMemilih,
+.pilihanPenuhRasa,
+.tagline {
+  overflow: hidden;
+  display: flex;
+}
+.ajakanMemilih {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 32px 24px 32px 40px;
+  box-sizing: border-box;
+  gap: var(--gap-15);
+  min-width: 0;
+  text-align: left;
+  font-size: var(--fs-12);
+  color: var(--color-seagreen);
+  font-family: var(--font-inter);
+}
+.tagline {
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--gap-7);
+}
+.aksen {
+  height: var(--height-3);
+  width: var(--width-22);
+  position: relative;
+  background-color: var(--color-seagreen);
+}
+.judulMenu,
+.pengantarSingkat {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+.judulMenu {
+  margin: 0;
+  font-size: 43px;
+  line-height: 113%;
+  font-weight: 800;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-100);
+}
+.pengantarSingkat {
+  font-size: var(--fs-14);
+  line-height: 165%;
+  color: var(--color-darkslategray-200);
+  max-width: 520px;
+}
+.heroImageContainer {
+  position: relative;
+  flex: 0 0 51.74%;
+  min-height: 300px;
+}
+.sajianPilihanIcon {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 28.6%;
+}
+@media screen and (max-width: 800px) {
+  .pilihanPenuhRasa {
+    flex-direction: column;
+  }
+  .ajakanMemilih {
+    padding: 24px;
+  }
+  .judulMenu {
+    font-size: 34px;
+    line-height: 39px;
+  }
+  .heroImageContainer {
+    flex: none;
+    min-height: 0;
+    aspect-ratio: 713 / 300;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pengantar {
+    padding-top: var(--padding-20);
+    padding-bottom: var(--padding-21);
+    box-sizing: border-box;
+  }
+  .judulMenu {
+    font-size: var(--fs-26);
+    line-height: 29px;
+  }
+}

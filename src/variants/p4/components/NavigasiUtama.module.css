@@ -1,0 +1,94 @@
+.navigasiUtama {
+  width: 1538px;
+  height: var(--height-100);
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}
+.logoThalita1RemovebgPrevIcon {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+  box-shadow: var(--shadow-drop);
+  width: var(--width-74);
+  height: 74px;
+  object-fit: cover;
+}
+.tautan,
+.tautanNavigasi {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.tautanNavigasi {
+  position: absolute;
+  top: 36px;
+  left: 559px;
+  gap: var(--gap-30);
+}
+.tautan {
+  flex-direction: column;
+  gap: var(--gap-8);
+  color: var(--color-darkslategray-500);
+}
+.label,
+.penandaAktif {
+  position: relative;
+  flex-shrink: 0;
+}
+.penandaAktif {
+  width: var(--width-20);
+  height: var(--height-3);
+  border-radius: var(--br-4);
+  background-color: var(--color-darkslategray-500);
+  display: none;
+}
+.tautan2 {
+  height: var(--height-17);
+  width: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label2 {
+  position: relative;
+  flex-shrink: 0;
+}
+.tautan3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.label3 {
+  position: relative;
+}
+.tombol {
+  position: absolute;
+  top: 23px;
+  left: 1257px;
+  border-radius: var(--br-12);
+  background-color: var(--color-darkslategray-500);
+  height: 54px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-0) var(--padding-24);
+  box-sizing: border-box;
+  gap: var(--gap-14);
+  font-size: var(--fs-15);
+  color: var(--color-white);
+}
+.arrowUpRightIcon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+}

@@ -1,0 +1,133 @@
+.lokasiCabangThalitaFriedCh,
+.pengantarDirektori {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lokasiCabangThalitaFriedCh {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  isolation: isolate;
+  gap: var(--gap-48);
+  line-height: normal;
+  letter-spacing: normal;
+}
+.pengantarDirektori {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-0) var(--padding-30) 1459px;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--fs-48);
+  color: var(--color-darkslategray-500);
+  font-family: var(--font-poppins);
+}
+.judulHalaman,
+.pilihanPenuhRasa {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.judulHalaman {
+  width: 100%;
+  padding: var(--padding-0) var(--padding-0) 152px;
+  max-width: 1378px;
+}
+.pilihanPenuhRasa {
+  flex: 1;
+  border-radius: var(--br-24);
+  background-color: var(--color-honeydew);
+  padding: 33px var(--padding-0) 31px;
+  max-width: 100%;
+}
+.judul {
+  flex: 1;
+  position: relative;
+  line-height: 115%;
+  display: inline-block;
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+.rootContainerIcon {
+  width: 1124px;
+  height: 1405px;
+  position: absolute;
+  margin: 0 !important;
+  top: 374px;
+  left: calc(50% - 562px);
+  object-fit: cover;
+  z-index: 1;
+}
+.rootContainerIcon2 {
+  width: 100%;
+  height: 1405px;
+  position: relative;
+  max-width: 1124px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 3;
+}
+@media screen and (max-width: 1350px) {
+  .pengantarDirektori {
+    padding-bottom: 948px;
+    box-sizing: border-box;
+  }
+  .judulHalaman {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .pengantarDirektori {
+    padding-bottom: 616px;
+    box-sizing: border-box;
+  }
+  .rootContainerIcon2 {
+    max-width: 100%;
+  }
+  .judul {
+    font-size: 38px;
+    line-height: 44px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .lokasiCabangThalitaFriedCh {
+    gap: var(--gap-24);
+  }
+  .pengantarDirektori {
+    padding-bottom: 400px;
+    box-sizing: border-box;
+  }
+  .judul {
+    font-size: 29px;
+    line-height: 33px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lokasiCabangThalitaFriedCh {
+    gap: var(--gap-24);
+  }
+  .judul {
+    font-size: 29px;
+    line-height: 33px;
+  }
+  .pengantarDirektori {
+    padding-bottom: 616px;
+    box-sizing: border-box;
+  }
+  .rootContainerIcon2 {
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout: retain the desktop styling and keep content visible. */
+
+@media (max-width: 1125px) {
+  .pengantarDirektori { padding: 0 24px; }
+  .judulHalaman { padding: 0; }
+  .rootContainerIcon, .rootContainerIcon2 { position: static; width: calc(100% - 48px); height: auto; object-fit: contain; }
+}

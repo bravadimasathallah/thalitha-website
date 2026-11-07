@@ -1,0 +1,373 @@
+.pelengkap {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-38) var(--padding-30) var(--padding-10);
+  box-sizing: border-box;
+  gap: var(--gap-22) var(--gap-10);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-28);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-poppins);
+}
+.judulKategori,
+.judulKategori:hover,
+.pelengkap,
+.pelengkap:hover {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+.pelengkap:hover {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-22) var(--gap-10);
+  justify-content: flex-start;
+  padding: var(--padding-38) var(--padding-30) var(--padding-10);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.judulKategori,
+.judulKategori:hover {
+  gap: var(--gap-0);
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  max-width: var(--max-w-1378);
+  row-gap: var(--gap-20);
+}
+.judulKategori {
+  overflow: hidden;
+}
+.judulKategori:hover {
+  flex-direction: row;
+}
+.informasiKategori,
+.informasiKategori:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  gap: var(--gap-10) var(--gap-16);
+  align-items: center;
+  min-width: 307px;
+  max-width: 100%;
+}
+.informasiKategori {
+  overflow: hidden;
+}
+.informasiKategori:hover {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.simbolKategoriIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  position: relative;
+}
+.simbolKategoriIcon,
+.simbolKategoriIcon:hover {
+  background-color: var(--color-honeydew);
+  display: block;
+  width: var(--width-48);
+  height: var(--height-48);
+  border-radius: var(--br-12);
+}
+.plusIcon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.plusIcon,
+.plusIcon:hover {
+  display: block;
+  width: var(--width-24);
+  height: var(--height-24);
+  gap: var(--gap-0);
+}
+.judulDanDeskripsi,
+.judulDanDeskripsi:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: var(--height-55);
+  flex-direction: column;
+  gap: var(--gap-5) var(--gap-10);
+  align-items: flex-start;
+}
+.judulDanDeskripsi {
+  overflow: hidden;
+}
+.judulDanDeskripsi:hover {
+  justify-content: flex-start;
+}
+.namaDanJumlah,
+.namaDanJumlah:hover {
+  display: flex;
+  width: 202px;
+  height: var(--height-34);
+  gap: var(--gap-10) var(--gap-12);
+  align-items: center;
+}
+.namaDanJumlah {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.namaDanJumlah:hover {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.namaKategori,
+.namaKategori:hover {
+  line-height: 120%;
+  display: block;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.namaKategori {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.namaKategori:hover {
+  font-family: var(--font-poppins);
+  font-size: var(--fs-28);
+  text-align: left;
+  color: var(--color-darkslategray-200);
+}
+.jumlahMenu {
+  position: relative;
+  font-size: var(--fs-12);
+}
+.deskripsiKategori,
+.deskripsiKategori:hover,
+.jumlahMenu,
+.jumlahMenu:hover {
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  display: block;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.jumlahMenu:hover {
+  font-size: var(--fs-12);
+  text-align: left;
+}
+.deskripsiKategori,
+.deskripsiKategori:hover {
+  font-size: var(--fs-13);
+}
+.deskripsiKategori {
+  position: relative;
+}
+.deskripsiKategori:hover {
+  text-align: left;
+}
+.catatanNasi,
+.catatanNasi:hover {
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: var(--height-35);
+  gap: var(--gap-10) var(--gap-0);
+  align-items: center;
+  border-radius: var(--br-100);
+  padding: var(--padding-10) var(--padding-14);
+  box-sizing: border-box;
+}
+.catatanNasi {
+  overflow: hidden;
+  font-size: var(--fs-12);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.catatanNasi:hover {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.pilihanNasi,
+.pilihanNasi:hover {
+  display: block;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.pilihanNasi {
+  position: relative;
+}
+.pilihanNasi:hover {
+  font-family: var(--font-inter);
+  font-size: var(--fs-12);
+  text-align: left;
+  color: var(--color-gray-100);
+}
+.daftarMenu,
+.daftarMenu:hover {
+  width: 100%;
+  gap: 23.9px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-0) var(--padding-2) var(--padding-0) var(--padding-0);
+  max-width: var(--max-w-1378);
+}
+.daftarMenu {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  height: auto;
+  text-align: left;
+  font-size: var(--fs-18);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-inter);
+}
+.daftarMenu:hover {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.petunjukPelengkap {
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--fs-24);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+.daftarMenu:hover,
+.petunjukPelengkap,
+.petunjukPelengkap:hover {
+  display: flex;
+  height: auto;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.petunjukPelengkap,
+.petunjukPelengkap:hover {
+  background-color: var(--color-honeydew);
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-16) var(--gap-10);
+  justify-content: center;
+  border-radius: var(--br-16);
+  padding: var(--padding-93) var(--padding-20) var(--padding-93)
+    var(--padding-32);
+  min-width: 335px;
+  max-width: 100%;
+}
+.utensilsCrossedIcon {
+  position: relative;
+}
+.utensilsCrossedIcon,
+.utensilsCrossedIcon:hover {
+  display: block;
+  width: var(--width-30);
+  height: var(--height-30);
+  gap: var(--gap-0);
+}
+.judulPelengkap {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.judulPelengkap,
+.judulPelengkap:hover,
+.saranPenyajian,
+.saranPenyajian:hover {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: var(--max-w-420_8);
+}
+.judulPelengkap:hover {
+  font-weight: 700;
+  font-family: var(--font-poppins);
+  font-size: var(--fs-24);
+  line-height: 125%;
+  text-align: left;
+  color: var(--color-darkslategray-100);
+}
+.saranPenyajian,
+.saranPenyajian:hover {
+  font-family: var(--font-inter);
+  font-size: var(--fs-13);
+  line-height: 165%;
+}
+.saranPenyajian {
+  position: relative;
+}
+.saranPenyajian:hover {
+  text-align: left;
+  color: var(--color-darkslategray-100);
+}
+@media screen and (max-width: 1400px) {
+  .daftarMenu,
+  .judulKategori {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .daftarMenu,
+  .judulKategori {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .pelengkap {
+    padding-top: 25px;
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .informasiKategori {
+    flex-wrap: wrap;
+  }
+  .namaKategori {
+    font-size: var(--fs-22);
+    line-height: var(--lh-27);
+  }
+  .petunjukPelengkap {
+    flex: 1;
+  }
+  .judulPelengkap {
+    font-size: var(--fs-19);
+    line-height: var(--lh-24);
+    max-width: 100%;
+  }
+  .saranPenyajian {
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout: retain the desktop styling and keep content visible. */
+
+@media (max-width: 800px) {
+  .informasiKategori, .informasiKategori:hover { min-width: 0; }
+  .judulDanDeskripsi, .judulDanDeskripsi:hover { height: auto; min-width: 0; }
+  .judulKategori, .judulKategori:hover { flex-wrap: wrap; }
+}
+@media (max-width: 450px) {
+  .pelengkap, .pelengkap:hover { padding-left: 16px; padding-right: 16px; }
+}
+
+/* Responsive layout: retain the desktop styling and keep content visible. */
+
+@media (max-width: 450px) {
+  .petunjukPelengkap, .petunjukPelengkap:hover { min-width: 0; flex-basis: 100%; padding: 32px 24px; }
+}
+
+
+@media (max-width: 450px) {
+  .informasiKategori, .informasiKategori:hover { flex-basis: 100%; }
+  .judulDanDeskripsi, .judulDanDeskripsi:hover { flex-basis: 100%; }
+  .namaDanJumlah, .namaDanJumlah:hover { width: auto; max-width: 100%; height: auto; min-height: 34px; flex-wrap: wrap; }
+}

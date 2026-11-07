@@ -1,0 +1,140 @@
+.kelompokCabang,
+.kepalaKelompok {
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+.kelompokCabang {
+  flex: 1;
+  border-radius: var(--br-12);
+  background-color: var(--color-white);
+  border: var(--border-1);
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 233px;
+  max-height: var(--max-h-254);
+  text-align: left;
+  font-size: var(--fs-19);
+  color: var(--color-darkslategray-500);
+  font-family: var(--font-inter);
+}
+.kepalaKelompok {
+  align-self: stretch;
+  background-color: var(--color-mintcream);
+  border-bottom: var(--border-11);
+  align-items: center;
+  padding: var(--padding-20) var(--padding-24);
+  gap: var(--gap-16);
+  flex-shrink: 0;
+}
+.namaArea {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  display: inline-block;
+  min-width: 91px;
+  max-width: 100%;
+}
+.jumlahArea {
+  position: relative;
+  font-size: var(--fs-13);
+  color: var(--color-gray-200);
+}
+.daftarLokasi,
+.lokasiCabang {
+  align-self: stretch;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.daftarLokasi {
+  flex-direction: column;
+  padding: var(--padding-4) var(--padding-24) var(--padding-8);
+  font-size: var(--fs-16);
+  color: var(--color-seagreen-200);
+}
+.lokasiCabang {
+  height: var(--height-45);
+  border-bottom: var(--border-21);
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+}
+.namaLokasi,
+.namaLokasi2,
+.namaLokasi3,
+.penandaLokasi {
+  position: relative;
+  line-height: var(--lh-24);
+}
+.namaLokasi,
+.namaLokasi2,
+.namaLokasi3 {
+  flex: 1;
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: var(--min-w-135);
+  max-width: 100%;
+}
+.namaLokasi2,
+.namaLokasi3 {
+  min-width: var(--min-w-89);
+}
+.namaLokasi3 {
+  min-width: var(--min-w-70);
+}
+.lokasiCabang4 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi4 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: var(--min-w-100);
+  max-width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .kepalaKelompok,
+  .lokasiCabang {
+    flex-wrap: wrap;
+  }
+  .penandaLokasi {
+    width: 100%;
+    height: var(--height-5);
+  }
+  .lokasiCabang4 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kepalaKelompok,
+  .lokasiCabang {
+    flex-wrap: wrap;
+  }
+  .penandaLokasi {
+    width: 100%;
+    height: var(--height-5);
+  }
+  .lokasiCabang4 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .kelompokCabang { max-height: none; min-width: 0; }
+  .lokasiCabang { height: auto; min-height: 45px; flex-wrap: nowrap; }
+  .penandaLokasi { width: auto; height: auto; }
+}

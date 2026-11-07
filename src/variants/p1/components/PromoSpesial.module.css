@@ -1,0 +1,119 @@
+.promoSpesial {
+  align-self: stretch;
+  height: 620px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-30) var(--padding-0) 38px;
+  box-sizing: border-box;
+  gap: 11.1px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-12);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-inter);
+}
+.judulBagian,
+.pengantarPromo {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+}
+.pengantarPromo {
+  width: 100%;
+  max-width: 1386px;
+}
+.judulBagian {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11);
+  max-width: 100%;
+}
+.judul,
+.labelBagian {
+  align-self: stretch;
+  position: relative;
+  font-weight: 800;
+}
+.judul {
+  margin: 0;
+  font-size: 44px;
+  line-height: 112%;
+  font-family: inherit;
+  color: var(--color-gray-200);
+}
+.promoCard,
+.promoGrid {
+  display: flex;
+  box-sizing: border-box;
+}
+.promoGrid {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: var(--padding-11_9) var(--padding-2) var(--padding-11_9)
+    var(--padding-0);
+  gap: var(--gap-72);
+  max-width: 1386px;
+}
+.promoCard {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-1) var(--padding-0) var(--padding-0);
+  min-width: 235px;
+  flex-shrink: 0;
+}
+.cardImageIcon,
+.promoItemsIcon,
+.promoItemsIcon3 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-15);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.promoItemsIcon,
+.promoItemsIcon3 {
+  min-width: 233px;
+  flex-shrink: 0;
+}
+.promoItemsIcon3 {
+  min-width: 117px;
+}
+@media screen and (max-width: 1350px) {
+  .pengantarPromo,
+  .promoGrid {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .judul {
+    font-size: 35px;
+    line-height: 39px;
+  }
+  .promoGrid {
+    gap: var(--gap-36);
+  }
+}
+@media screen and (max-width: 450px) {
+  .judul {
+    font-size: var(--fs-26);
+    line-height: var(--lh-30);
+  }
+  .promoGrid {
+    gap: var(--gap-18);
+  }
+}
+
+
+@media (max-width: 1350px) {
+  .promoSpesial { height: auto; min-height: 620px; padding-block: 40px; }
+  .pengantarPromo { flex-shrink: 0; }
+}

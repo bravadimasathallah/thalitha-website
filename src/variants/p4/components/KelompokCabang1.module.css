@@ -1,0 +1,109 @@
+.kelompokCabang,
+.kepalaKelompok {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.kelompokCabang {
+  flex: 1;
+  border-radius: var(--br-12);
+  background-color: var(--color-white);
+  border: var(--border-1);
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: var(--min-w-508);
+  text-align: left;
+  font-size: var(--fs-19);
+  color: var(--color-darkslategray-500);
+  font-family: var(--font-inter);
+}
+.kepalaKelompok {
+  align-self: stretch;
+  background-color: var(--color-mintcream);
+  align-items: center;
+  padding: var(--padding-20) var(--padding-24);
+  gap: var(--gap-16);
+}
+.namaArea {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  display: inline-block;
+  min-width: 54px;
+  max-width: 100%;
+}
+.jumlahArea {
+  position: relative;
+  font-size: var(--fs-13);
+  color: var(--color-gray-200);
+}
+.daftarLokasi,
+.lokasiCabang {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.daftarLokasi {
+  flex-direction: column;
+  padding: var(--padding-4) var(--padding-24) var(--padding-8);
+  font-size: var(--fs-16);
+  color: var(--color-seagreen-200);
+}
+.lokasiCabang {
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+}
+.namaLokasi,
+.penandaLokasi {
+  position: relative;
+  line-height: var(--lh-24);
+}
+.namaLokasi {
+  flex: 1;
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 115px;
+  max-width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .kelompokCabang {
+    min-width: 100%;
+  }
+  .kepalaKelompok {
+    flex-wrap: wrap;
+  }
+  .jumlahArea {
+    width: 100%;
+    height: var(--height-15);
+  }
+  .lokasiCabang {
+    flex-wrap: wrap;
+  }
+  .penandaLokasi {
+    width: 100%;
+    height: var(--height-5);
+  }
+}
+@media screen and (max-width: 450px) {
+  .kelompokCabang {
+    min-width: 100%;
+  }
+  .kepalaKelompok {
+    flex-wrap: wrap;
+  }
+  .jumlahArea {
+    width: 100%;
+    height: var(--height-15);
+  }
+  .lokasiCabang {
+    flex-wrap: wrap;
+  }
+  .penandaLokasi {
+    width: 100%;
+    height: var(--height-5);
+  }
+}

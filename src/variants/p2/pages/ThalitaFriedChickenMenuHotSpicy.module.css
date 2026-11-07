@@ -1,0 +1,25 @@
+.thalitaFriedChickenMenuH {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  gap: 28px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.pembukaMenu,
+.thalitaFriedChickenMenuH {
+  display: flex;
+  flex-direction: column;
+}
+.pembukaMenu {
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-inter);
+}

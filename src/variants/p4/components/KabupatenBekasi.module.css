@@ -1,0 +1,1261 @@
+.judulWilayah,
+.kabupatenBekasi {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+.kabupatenBekasi {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-24);
+  text-align: left;
+  font-size: var(--fs-23);
+  color: var(--color-darkslategray-500);
+  font-family: var(--font-inter);
+}
+.judulWilayah {
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: var(--gap-10) 15.3px;
+}
+.aksenWilayah {
+  height: var(--height-25);
+  width: var(--width-4);
+  position: relative;
+  border-radius: var(--br-2);
+  background-color: var(--color-seagreen-200);
+}
+.wilayah {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.jumlahLokasi {
+  height: var(--height-28);
+  border-radius: var(--br-100);
+  background-color: var(--color-mintcream);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-6) var(--padding-12);
+  box-sizing: border-box;
+  font-size: var(--fs-13);
+  color: var(--color-seagreen-200);
+}
+.jumlah {
+  position: relative;
+  font-weight: 500;
+}
+.garisPemisah {
+  height: var(--height-1);
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  min-width: 661px;
+  max-width: 100%;
+}
+.kelompokArea {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-10) var(--gap-24);
+  max-width: 100%;
+}
+.kelompokCabang,
+.kepalaKelompok {
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.kelompokCabang {
+  flex: 1;
+  border-radius: var(--br-12);
+  background-color: var(--color-white);
+  border: var(--border-1);
+  flex-direction: column;
+  isolation: isolate;
+  min-width: var(--min-w-332);
+  max-height: 817px;
+  text-align: left;
+  font-size: var(--fs-19);
+  color: var(--color-darkslategray-500);
+  font-family: var(--font-inter);
+}
+.kepalaKelompok {
+  align-self: stretch;
+  background-color: var(--color-mintcream);
+  border-bottom: var(--border-11);
+  padding: var(--padding-20) var(--padding-24);
+  gap: var(--gap-16);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.namaArea {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  display: inline-block;
+  min-width: 56px;
+  max-width: 100%;
+}
+.jumlahArea {
+  position: relative;
+  font-size: var(--fs-13);
+  color: var(--color-gray-200);
+}
+.daftarLokasi,
+.lokasiCabang {
+  overflow: hidden;
+  max-width: 100%;
+}
+.daftarLokasi {
+  align-self: stretch;
+  height: 751px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 0;
+  font-size: var(--fs-16);
+  color: var(--color-seagreen-200);
+}
+.lokasiCabang {
+  position: absolute;
+  top: 2px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+}
+.namaLokasi,
+.penandaLokasi {
+  position: relative;
+  line-height: var(--lh-24);
+  flex-shrink: 0;
+}
+.namaLokasi {
+  flex: 1;
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: var(--min-w-80);
+  max-width: 100%;
+}
+.lokasiCabang2 {
+  position: absolute;
+  top: 46px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi2 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 82px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang3 {
+  position: absolute;
+  top: 90px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi3 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 47px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang4,
+.lokasiCabang5 {
+  position: absolute;
+  top: 134px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.lokasiCabang5 {
+  top: 178px;
+}
+.namaLokasi5 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 42px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang6 {
+  position: absolute;
+  top: 222px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi6 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: var(--min-w-87);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang7 {
+  position: absolute;
+  top: 266px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi7 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 124px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang8 {
+  position: absolute;
+  top: 310px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi8 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 120px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang9 {
+  position: absolute;
+  top: 354px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi9 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 68px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang10 {
+  position: absolute;
+  top: 398px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi10 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: var(--min-w-58);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang11 {
+  position: absolute;
+  top: 442px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi11 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 134px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang12 {
+  position: absolute;
+  top: 486px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi12 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 69px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang13 {
+  position: absolute;
+  top: 530px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi13 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 74px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang14 {
+  position: absolute;
+  top: 574px;
+  left: 9.3px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi14 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: var(--min-w-70);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang15 {
+  position: absolute;
+  top: 618px;
+  left: 9.3px;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi15 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 127px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang16 {
+  position: absolute;
+  top: 662px;
+  left: 9.3px;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi16 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 128px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.kelompokCabang2,
+.kepalaKelompok2 {
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+.kelompokCabang2 {
+  flex: 1;
+  border-radius: var(--br-12);
+  background-color: var(--color-white);
+  border: var(--border-1);
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: var(--min-w-332);
+  text-align: left;
+  font-size: var(--fs-19);
+  color: var(--color-darkslategray-500);
+  font-family: var(--font-inter);
+}
+.kepalaKelompok2 {
+  align-self: stretch;
+  background-color: var(--color-mintcream);
+  border-bottom: var(--border-11);
+  align-items: center;
+  padding: var(--padding-20) var(--padding-24);
+  gap: var(--gap-16);
+  flex-shrink: 0;
+}
+.daftarLokasi2,
+.namaArea2 {
+  position: relative;
+  max-width: 100%;
+}
+.namaArea2 {
+  flex: 1;
+  line-height: 135%;
+  display: inline-block;
+  min-width: var(--min-w-58);
+}
+.daftarLokasi2 {
+  align-self: stretch;
+  height: 696px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--fs-16);
+  color: var(--color-seagreen-200);
+}
+.namaLokasi17 {
+  position: absolute;
+  top: 2px;
+  left: 8.7px;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+}
+.lokasiCabang17 {
+  position: absolute;
+  top: 26px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi18 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: var(--min-w-89);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang18 {
+  position: absolute;
+  top: 70px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi19 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 138px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang19,
+.lokasiCabang20,
+.lokasiCabang21 {
+  position: absolute;
+  top: 114px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.lokasiCabang20,
+.lokasiCabang21 {
+  top: 158px;
+}
+.lokasiCabang21 {
+  top: 202px;
+}
+.namaLokasi22 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 93px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang22 {
+  position: absolute;
+  top: 246px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi23 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 136px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang23 {
+  position: absolute;
+  top: 290px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi24 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 105px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang24 {
+  position: absolute;
+  top: 334px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi25 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: var(--min-w-64);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang25 {
+  position: absolute;
+  top: 378px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi26 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 102px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang26 {
+  position: absolute;
+  top: 422px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi27 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 78px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang27 {
+  position: absolute;
+  top: 466px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi28 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 111px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang28 {
+  position: absolute;
+  top: 510px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi29 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 65px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang29 {
+  position: absolute;
+  top: 554px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi30 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 98px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang30 {
+  position: absolute;
+  top: 598px;
+  left: 8.7px;
+  border-bottom: var(--border-21);
+  box-sizing: border-box;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi31 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: var(--min-w-135);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lokasiCabang31 {
+  position: absolute;
+  top: 642px;
+  left: 8.7px;
+  width: var(--width-396);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi32 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 113px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.areaKabupatenLainnya {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-24);
+  min-width: var(--min-w-332);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-19);
+  color: var(--color-darkslategray-500);
+  font-family: var(--font-inter);
+}
+.kelompokCabang3,
+.kepalaKelompok3 {
+  align-self: stretch;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+.kelompokCabang3 {
+  border-radius: var(--br-12);
+  background-color: var(--color-white);
+  border: var(--border-1);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-1) 13px;
+  max-height: 386px;
+}
+.kepalaKelompok3 {
+  background-color: var(--color-mintcream);
+  border-bottom: var(--border-11);
+  align-items: center;
+  padding: var(--padding-20) var(--padding-24);
+  gap: var(--gap-16);
+}
+.namaArea3 {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  display: inline-block;
+  min-width: 62px;
+  max-width: 100%;
+}
+.daftarLokasi3,
+.lokasiCabang32 {
+  align-self: stretch;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.daftarLokasi3 {
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-2) 23px var(--padding-8);
+  font-size: var(--fs-16);
+  color: var(--color-seagreen-200);
+}
+.lokasiCabang32 {
+  height: var(--height-45);
+  border-bottom: var(--border-21);
+  flex-shrink: 0;
+  padding: var(--padding-10) var(--padding-0);
+  gap: var(--gap-12);
+}
+.namaLokasi33,
+.penandaLokasi32 {
+  position: relative;
+  line-height: var(--lh-24);
+}
+.namaLokasi33 {
+  flex: 1;
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 62px;
+  max-width: 100%;
+}
+.namaLokasi34 {
+  min-width: 81px;
+}
+.namaLokasi34,
+.namaLokasi35,
+.namaLokasi36,
+.namaLokasi37,
+.namaLokasi38 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  max-width: 100%;
+}
+.namaLokasi35 {
+  min-width: var(--min-w-70);
+}
+.namaLokasi36,
+.namaLokasi37,
+.namaLokasi38 {
+  min-width: 75px;
+}
+.namaLokasi37,
+.namaLokasi38 {
+  min-width: 76px;
+}
+.namaLokasi38 {
+  min-width: 104px;
+}
+.lokasiCabang38 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi39 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 122px;
+  max-width: 100%;
+}
+.kelompokCabang4,
+.kepalaKelompok4 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.kelompokCabang4 {
+  border-radius: var(--br-12);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkgreen);
+  flex-direction: column;
+  align-items: flex-start;
+}
+.kepalaKelompok4 {
+  background-color: var(--color-mintcream);
+  align-items: center;
+  padding: var(--padding-20) var(--padding-24);
+  gap: var(--gap-16);
+}
+.namaArea4 {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  display: inline-block;
+  min-width: var(--min-w-89);
+  max-width: 100%;
+}
+.jumlahArea4 {
+  position: relative;
+  font-size: var(--fs-13);
+  color: var(--color-gray-200);
+}
+.daftarLokasi4 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-4) var(--padding-24) var(--padding-8);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--fs-16);
+  color: var(--color-seagreen-200);
+}
+.namaLokasi40,
+.namaLokasi41 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: 121px;
+  max-width: 100%;
+}
+.namaLokasi41 {
+  min-width: 84px;
+}
+.lokasiCabang41 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.namaLokasi42 {
+  flex: 1;
+  position: relative;
+  line-height: var(--lh-24);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  min-width: var(--min-w-58);
+  max-width: 100%;
+}
+@media screen and (max-width: 1125px) {
+  .wilayah {
+    font-size: var(--fs-18);
+  }
+  .kepalaKelompok {
+    flex-wrap: wrap;
+  }
+  .daftarLokasi {
+    height: auto;
+    min-height: 751px;
+  }
+  .lokasiCabang {
+    flex-wrap: wrap;
+  }
+  .penandaLokasi {
+    width: 100%;
+    height: var(--height-5);
+  }
+  .kepalaKelompok2,
+  .lokasiCabang10,
+  .lokasiCabang11,
+  .lokasiCabang12,
+  .lokasiCabang13,
+  .lokasiCabang14,
+  .lokasiCabang15,
+  .lokasiCabang16,
+  .lokasiCabang2,
+  .lokasiCabang3,
+  .lokasiCabang4,
+  .lokasiCabang5,
+  .lokasiCabang6,
+  .lokasiCabang7,
+  .lokasiCabang8,
+  .lokasiCabang9 {
+    flex-wrap: wrap;
+  }
+  .daftarLokasi2 {
+    height: auto;
+    min-height: 696px;
+  }
+  .kepalaKelompok3,
+  .lokasiCabang17,
+  .lokasiCabang18,
+  .lokasiCabang19,
+  .lokasiCabang20,
+  .lokasiCabang21,
+  .lokasiCabang22,
+  .lokasiCabang23,
+  .lokasiCabang24,
+  .lokasiCabang25,
+  .lokasiCabang26,
+  .lokasiCabang27,
+  .lokasiCabang28,
+  .lokasiCabang29,
+  .lokasiCabang30,
+  .lokasiCabang31,
+  .lokasiCabang32 {
+    flex-wrap: wrap;
+  }
+  .penandaLokasi32 {
+    width: 100%;
+    height: var(--height-5);
+  }
+  .kepalaKelompok4,
+  .lokasiCabang38 {
+    flex-wrap: wrap;
+  }
+  .jumlahArea4 {
+    width: 100%;
+    height: var(--height-17);
+  }
+  .lokasiCabang41 {
+    flex-wrap: wrap;
+  }
+  .aksenWilayah {
+    width: 100%;
+    height: var(--height-4);
+  }
+  .garisPemisah {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .aksenWilayah {
+    width: 100%;
+    height: var(--height-4);
+  }
+  .garisPemisah {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wilayah {
+    font-size: var(--fs-18);
+  }
+  .kepalaKelompok {
+    flex-wrap: wrap;
+  }
+  .daftarLokasi {
+    height: auto;
+    min-height: 751px;
+  }
+  .lokasiCabang {
+    flex-wrap: wrap;
+  }
+  .penandaLokasi {
+    width: 100%;
+    height: var(--height-5);
+  }
+  .kepalaKelompok2,
+  .lokasiCabang10,
+  .lokasiCabang11,
+  .lokasiCabang12,
+  .lokasiCabang13,
+  .lokasiCabang14,
+  .lokasiCabang15,
+  .lokasiCabang16,
+  .lokasiCabang2,
+  .lokasiCabang3,
+  .lokasiCabang4,
+  .lokasiCabang5,
+  .lokasiCabang6,
+  .lokasiCabang7,
+  .lokasiCabang8,
+  .lokasiCabang9 {
+    flex-wrap: wrap;
+  }
+  .daftarLokasi2 {
+    height: auto;
+    min-height: 696px;
+  }
+  .kepalaKelompok3,
+  .lokasiCabang17,
+  .lokasiCabang18,
+  .lokasiCabang19,
+  .lokasiCabang20,
+  .lokasiCabang21,
+  .lokasiCabang22,
+  .lokasiCabang23,
+  .lokasiCabang24,
+  .lokasiCabang25,
+  .lokasiCabang26,
+  .lokasiCabang27,
+  .lokasiCabang28,
+  .lokasiCabang29,
+  .lokasiCabang30,
+  .lokasiCabang31,
+  .lokasiCabang32 {
+    flex-wrap: wrap;
+  }
+  .penandaLokasi32 {
+    width: 100%;
+    height: var(--height-5);
+  }
+  .kepalaKelompok4,
+  .lokasiCabang38 {
+    flex-wrap: wrap;
+  }
+  .jumlahArea4 {
+    width: 100%;
+    height: var(--height-17);
+  }
+  .lokasiCabang41 {
+    flex-wrap: wrap;
+  }
+}
+
+/* Responsive layout: retain the desktop styling and keep content visible. */
+
+@media (max-width: 800px) {
+  .kelompokCabang, .kelompokCabang2, .kelompokCabang3, .areaKabupatenLainnya { min-width: 0; max-height: none; }
+  .daftarLokasi, .daftarLokasi2 { height: auto; padding: 0 12px; }
+  .daftarLokasi > div, .daftarLokasi2 > div { position: static; width: 100%; min-width: 0; max-width: 100%; height: auto; box-sizing: border-box; }
+  .daftarLokasi > div > div, .daftarLokasi2 > div > div { min-width: 0; flex-shrink: 1; }
+  .namaLokasi17 { padding-block: 10px; }
+}
+
+
+@media (max-width: 1125px) {
+  .kelompokCabang3 { max-height: none; }
+  .daftarLokasi3 { justify-content: flex-start; }
+  .lokasiCabang32 { height: auto; min-height: 45px; }
+}
+@media (max-width: 800px) {
+  .kelompokArea { flex-direction: column; align-items: stretch; }
+  .kelompokCabang, .kelompokCabang2, .areaKabupatenLainnya { flex: none; width: 100%; }
+  .lokasiCabang32 { flex-wrap: nowrap; }
+  .penandaLokasi32 { width: auto; height: auto; }
+}

@@ -1,0 +1,161 @@
+.pelengkap {
+  align-self: stretch;
+  height: 506px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 38px var(--padding-80) var(--padding-10);
+  box-sizing: border-box;
+  gap: var(--gap-22);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-28);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-poppins);
+}
+.informasiKategori,
+.judulKategori {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.judulKategori {
+  align-self: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: var(--gap-0);
+  row-gap: var(--gap-20);
+}
+.informasiKategori {
+  flex: 1;
+  gap: var(--gap-16);
+  min-width: 307px;
+}
+.simbolKategoriIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  height: var(--height-48);
+  width: var(--width-48);
+  position: relative;
+  border-radius: var(--br-12);
+}
+.plusIcon {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  width: var(--width-24);
+  height: var(--height-24);
+}
+.judulDanDeskripsi {
+  height: 55px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5);
+}
+.namaDanJumlah {
+  width: 188px;
+  height: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-12);
+}
+.namaKategori {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.jumlahMenu {
+  position: relative;
+  font-size: var(--fs-12);
+}
+.catatanNasi,
+.deskripsiKategori,
+.jumlahMenu {
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.deskripsiKategori {
+  position: relative;
+  font-size: var(--fs-13);
+}
+.catatanNasi {
+  height: var(--height-35);
+  border-radius: var(--br-100);
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-10) var(--padding-14);
+  box-sizing: border-box;
+  font-size: var(--fs-12);
+}
+.pilihanNasi {
+  position: relative;
+}
+.daftarMenu {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-24);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-18);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 800px) {
+  .pelengkap {
+    height: auto;
+    padding: 25px var(--padding-40) var(--padding-20);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .informasiKategori {
+    flex-wrap: wrap;
+  }
+  .namaKategori {
+    font-size: var(--fs-22);
+    line-height: 27px;
+  }
+}
+
+/* Responsive layout: retain the desktop styling and keep content visible. */
+
+@media (max-width: 800px) {
+  .informasiKategori, .informasiKategori:hover { min-width: 0; }
+  .judulDanDeskripsi, .judulDanDeskripsi:hover { height: auto; min-width: 0; }
+  .judulKategori, .judulKategori:hover { flex-wrap: wrap; }
+}
+@media (max-width: 450px) {
+  .pelengkap, .pelengkap:hover { padding-left: 16px; padding-right: 16px; }
+}
+
+/* Responsive layout: retain the desktop styling and keep content visible. */
+
+.pelengkap { height: auto; min-height: 506px; }
+@media (max-width: 800px) { .pelengkap { min-height: 0; } }
+
+
+
+@media (max-width: 450px) {
+  .informasiKategori, .informasiKategori:hover { flex-basis: 100%; }
+  .judulDanDeskripsi, .judulDanDeskripsi:hover { flex-basis: 100%; }
+  .namaDanJumlah, .namaDanJumlah:hover { width: auto; max-width: 100%; height: auto; min-height: 34px; flex-wrap: wrap; }
+}

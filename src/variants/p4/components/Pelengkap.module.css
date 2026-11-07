@@ -1,0 +1,97 @@
+.pelengkap {
+  align-self: stretch;
+  height: 506px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 38px var(--padding-80) var(--padding-10);
+  box-sizing: border-box;
+  gap: var(--gap-22);
+  text-align: left;
+  font-size: var(--fs-28);
+  color: var(--color-darkslategray-400);
+  font-family: var(--font-poppins);
+}
+.informasiKategori,
+.judulKategori {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.judulKategori {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-0);
+}
+.informasiKategori {
+  flex: 1;
+  gap: var(--gap-16);
+}
+.simbolKategoriIcon {
+  height: var(--height-48);
+  width: var(--width-48);
+  position: relative;
+  border-radius: var(--br-12);
+}
+.plusIcon {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  width: var(--width-24);
+  height: var(--height-24);
+}
+.judulDanDeskripsi {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5);
+}
+.namaDanJumlah {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-12);
+}
+.namaKategori {
+  position: relative;
+  line-height: 120%;
+}
+.jumlahMenu {
+  position: relative;
+  font-size: var(--fs-12);
+}
+.catatanNasi,
+.deskripsiKategori,
+.jumlahMenu {
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.deskripsiKategori {
+  position: relative;
+  font-size: var(--fs-13);
+}
+.catatanNasi {
+  border-radius: var(--br-100);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-10) var(--padding-14);
+  font-size: var(--fs-12);
+}
+.pilihanNasi {
+  position: relative;
+}
+.daftarMenu {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-24);
+  font-size: var(--fs-18);
+}

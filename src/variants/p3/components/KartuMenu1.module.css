@@ -1,0 +1,190 @@
+.kartuMenu,
+.kartuMenu:hover {
+  background-color: var(--color-white);
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0) var(--gap-10);
+  align-items: flex-start;
+  border-radius: var(--br-16);
+  border: var(--border-1);
+  box-sizing: border-box;
+  min-width: var(--min-w-171);
+  max-width: var(--max-w-423);
+}
+.kartuMenu {
+  flex: 1.1157;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-18);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-inter);
+}
+.kartuMenu:hover {
+  justify-content: flex-start;
+}
+.fotoHidanganIcon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.fotoHidanganIcon,
+.fotoHidanganIcon:hover {
+  display: block;
+  align-self: stretch;
+  width: 100%;
+  height: var(--height-210);
+}
+.detailMenu,
+.detailMenu:hover {
+  display: flex;
+  align-self: stretch;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-8) var(--gap-10);
+  align-items: flex-start;
+  padding: var(--padding-20);
+  box-sizing: border-box;
+}
+.detailMenu {
+  overflow: hidden;
+}
+.detailMenu:hover {
+  justify-content: flex-start;
+}
+.namaMenu {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 700;
+  font-family: var(--font-poppins);
+}
+.isiMenu,
+.isiMenu:hover,
+.namaMenu,
+.namaMenu:hover {
+  display: block;
+  align-self: stretch;
+  width: 100%;
+  height: auto;
+}
+.namaMenu:hover {
+  font-weight: 700;
+  font-family: var(--font-poppins);
+  font-size: var(--fs-18);
+  line-height: 130%;
+  text-align: left;
+  color: var(--color-darkslategray-200);
+}
+.isiMenu,
+.isiMenu:hover {
+  font-size: var(--fs-12);
+  line-height: 150%;
+  color: var(--color-gray-100);
+}
+.isiMenu {
+  position: relative;
+}
+.isiMenu:hover {
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.hargaDanAksi,
+.hargaDanAksi:hover {
+  display: flex;
+  align-self: stretch;
+  width: 100%;
+  height: auto;
+  gap: var(--gap-0);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-8) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  row-gap: var(--gap-20);
+}
+.hargaDanAksi {
+  overflow: hidden;
+  font-size: var(--fs-19);
+}
+.hargaDanAksi:hover {
+  flex-direction: row;
+}
+.harga,
+.harga:hover {
+  display: block;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+.harga {
+  position: relative;
+}
+.harga:hover {
+  font-family: var(--font-inter);
+  font-size: var(--fs-19);
+  text-align: left;
+  color: var(--color-darkslategray-200);
+}
+.tambahKeKeranjang,
+.tambahKeKeranjang:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: var(--height-35);
+  gap: var(--gap-10) var(--gap-6);
+  align-items: center;
+  border-radius: var(--br-8);
+  padding: var(--padding-10) var(--padding-12);
+  box-sizing: border-box;
+}
+.tambahKeKeranjang {
+  cursor: pointer;
+  border: 0;
+  overflow: hidden;
+}
+.tambahKeKeranjang:hover {
+  background-color: var(--color-seagreen);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.tambahKeKeranjang,
+.tambahKeKeranjang:active {
+  background-color: var(--color-mediumseagreen);
+}
+.plusIcon,
+.plusIcon:hover {
+  display: block;
+  width: var(--width-14);
+  height: var(--height-14);
+  gap: var(--gap-0);
+}
+.labelAksi,
+.plusIcon {
+  position: relative;
+}
+.labelAksi,
+.labelAksi:hover {
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: var(--fs-12);
+  text-align: left;
+  color: var(--color-white);
+  display: block;
+  width: auto;
+  align-self: unset;
+  height: auto;
+}
+@media screen and (max-width: 450px) {
+  .kartuMenu {
+    max-width: 100%;
+  }
+  .hargaDanAksi {
+    flex-wrap: wrap;
+  }
+}
