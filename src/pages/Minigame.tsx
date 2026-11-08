@@ -274,7 +274,7 @@ export default function Minigame() {
           {phase !== "playing" && <div className={styles.overlay}>
             <div className={styles.dialog}>
               <span className={styles.badge}>{phase === "paused" ? "TARIK NAPAS DULU" : phase === "lost" ? "TERBANG LAGI, YUK!" : "SIAP TERBANG?"}</span>
-              <h2>{phase === "paused" ? "Permainan dijeda" : phase === "lost" ? `${score} pipa terlewati!` : "Kecil ayamnya, besar serunya."}</h2>
+              <h2>{phase === "paused" ? "Permainan dijeda" : phase === "lost" ? `${score} pipa terlewati!` : "Mainkan ayamnya, jangan jatoh."}</h2>
               <p>{phase === "paused" ? "Skor tersimpan. Lanjutkan saat kamu siap." : phase === "lost" ? `Kamu terbang selama ${elapsed.toFixed(1)} detik. Coba lagi dan lampaui skormu!` : "Satu tap untuk mengepak. Lewati pipa dan terus terbang!"}</p>
               {reward && <><p className={styles.earned}>✦ Hadiah Rp5.000 sudah tersimpan!</p><a className={styles.claim} href={claimLink} target="_blank" rel="noopener noreferrer">Tukarkan via WhatsApp ↗</a></>}
               <button ref={actionButton} type="button" onClick={phase === "paused" ? resume : start} disabled={asset !== "ready"}>
