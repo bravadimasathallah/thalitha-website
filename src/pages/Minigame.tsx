@@ -218,7 +218,7 @@ export default function Minigame() {
       <section className={styles.intro} inert={expanded}>
         <span className={styles.eyebrow}>MAIN SEBENTAR, SENYUM LEBIH LEBAR</span>
         <h1>Ayamnya terbang.<br /><span>Serunya kebangetan!</span></h1>
-        <p>Bantu si ayam Thalitha melewati rintangan. Jaga ritme kepakanmu, lewati sebanyak mungkin pipa, dan raih skor tertinggi!</p>
+        <p>Bantu si ayam Thalita melewati rintangan. Jaga ritme kepakanmu, lewati sebanyak mungkin pipa, dan raih skor tertinggi!</p>
         <ol className={styles.instructions}>
           <li><span>01</span><div><b>Tap untuk terbang</b><p>Sentuh layar, klik arena, atau tekan Spasi / ↑.</p></div></li>
           <li><span>02</span><div><b>Cari celahnya</b><p>Hindari pipa, tanah, dan batas atas arena.</p></div></li>
@@ -240,7 +240,7 @@ export default function Minigame() {
           if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
           else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
         }}>
-        <div className={styles.gameHeader}><b>THALITHA <span>FLY!</span></b>
+        <div className={styles.gameHeader}><b>THALITA <span>FLY!</span></b>
           <button type="button" onClick={() => {
             if (expanded && game.current.phase === "playing") pause();
             setExpanded(value => !value);
