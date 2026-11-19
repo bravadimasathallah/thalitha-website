@@ -48,7 +48,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           <Link viewTransition className={styles.tautan} to="/lokasi">Lokasi Gerai</Link>
         </div>
         <div className={styles.informasiBisnis}>
-          <div className={styles.judul}>Bersama Thalitha</div>
+          <div className={styles.judul}>Bersama Thalita</div>
           <div className={styles.tautan}>Tentang Kami</div>
           <Link viewTransition className={styles.tautan} to={halamanKemitraan}>Kemitraan</Link>
           <div className={styles.tautan7}>Hubungi Kami</div>
@@ -75,7 +75,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
       <div className={styles.pemisah} />
       <div className={styles.catatanFooter}>
         <div className={styles.hakCipta}>
-          © 2026 Thalitha Fried Chicken. Konsep desain untuk ilustrasi.
+          © 2026 Thalita Fried Chicken. Konsep desain untuk ilustrasi.
         </div>
         <div className={styles.tautanLegal}>
           <div className={styles.privasi}>Kebijakan Privasi</div>

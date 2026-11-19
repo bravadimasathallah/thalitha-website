@@ -9,7 +9,7 @@ import styles from "./Minigame.module.css";
 
 const logo = "/assets/p1/Logo-Thalita-1-removebg-preview-2@2x.png";
 const rewardKey = "thalitha-flappy-10-pipes-reward";
-const claimLink = `${tautanWhatsApp}?text=${encodeURIComponent("Halo Thalitha! Saya berhasil melewati 10 pipa di minigame dan mendapatkan potongan Rp5.000. Saya ingin menukarkannya untuk pesanan saya. Mohon konfirmasi penukarannya ya!")}`;
+const claimLink = `${tautanWhatsApp}?text=${encodeURIComponent("Halo Thalita! Saya berhasil melewati 10 pipa di minigame dan mendapatkan potongan Rp5.000. Saya ingin menukarkannya untuk pesanan saya. Mohon konfirmasi penukarannya ya!")}`;
 
 function draw(ctx: CanvasRenderingContext2D, game: Game, chicken: HTMLCanvasElement | null) {
   const { width, height, floor } = WORLD;

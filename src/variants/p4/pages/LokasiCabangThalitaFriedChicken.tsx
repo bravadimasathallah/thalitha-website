@@ -55,7 +55,7 @@ const LokasiCabangThalitaFriedChicken: FunctionComponent = () => {
               <Link viewTransition className={styles.namaMerek} to="/lokasi">Lokasi Gerai</Link>
             </div>
             <div className={styles.informasiBisnis}>
-              <div className={styles.judul2}>Bersama Thalitha</div>
+              <div className={styles.judul2}>Bersama Thalita</div>
               <div className={styles.namaMerek}>Tentang Kami</div>
               <Link viewTransition className={styles.namaMerek} to={halamanKemitraan}>Kemitraan</Link>
               <div className={styles.tautan7}>Hubungi Kami</div>
@@ -64,7 +64,7 @@ const LokasiCabangThalitaFriedChicken: FunctionComponent = () => {
           </div>
           <div className={styles.pemisah} />
           <div className={styles.catatanFooter}>
-            <div className={styles.namaMerek}>© 2026 Thalitha Fried Chicken.</div>
+            <div className={styles.namaMerek}>© 2026 Thalita Fried Chicken.</div>
             <div className={styles.tautanLegal}>
               <div className={styles.privasi}>Kebijakan Privasi</div>
               <div className={styles.namaMerek}>{`Syarat & Ketentuan`}</div>

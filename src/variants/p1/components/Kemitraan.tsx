@@ -32,14 +32,14 @@ const Kemitraan: FunctionComponent<KemitraanType> = ({ className = "" }) => {
         />
       </div>
       <section className={styles.informasiKemitraan}>
-        <div className={styles.labelBagian}>KEMITRAAN THALITHA</div>
+        <div className={styles.labelBagian}>KEMITRAAN THALITA</div>
         <h1 className={styles.judul2}>
           Bawa peluang renyah
           <br />
           ke kotamu.
         </h1>
         <div className={styles.deskripsi2}>
-          Punya semangat berbisnis kuliner? Kenali konsep kemitraan Thalitha
+          Punya semangat berbisnis kuliner? Kenali konsep kemitraan Thalita
           Fried Chicken dan mulai perjalanan usahamu bersama kami.
         </div>
         <div className={styles.keuntunganMitra}>
